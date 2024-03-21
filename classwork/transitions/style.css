@@ -1,0 +1,18 @@
+body {
+    margin: 100px;
+}
+
+.box {
+    width: 300px;
+    height: 300px;
+    background-color: yellow;
+    /* transition-duration: 1000ms;
+    transition-property: background, transform;
+    transition-timing-function: ease-out; */
+    transition: 1s 1000ms background ease-in; 
+}
+
+.box:hover {
+    background: rgb(16, 90, 132);
+    transform: rotate(45deg);
+}
