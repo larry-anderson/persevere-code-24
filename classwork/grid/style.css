@@ -1,0 +1,50 @@
+.container {
+    display: grid;
+    width: 100vw;
+    height: 100vh;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 15px;
+}
+.box1 {
+    background-color: rgb(255, 21, 0);
+    background-image: url(../../Practice/Candy/13.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    grid-area: 1/1/5/2;
+    z-index: 1;
+
+}
+.box2 {
+    background-color: rgb(251, 255, 0);
+    grid-area: 1/1/2/3;
+    z-index: 2;
+    font-size: 2em;
+    text-align: center;
+    transform: translateY(50%) translateX(20%);
+    transform:rotateZ('angle');
+    
+        text-shadow: 0 -0.05em 0.2em #FFF, 0.01em -0.02em 0.15em #FE0, 0.01em -0.05em 0.15em #FC0, 0.02em -0.15em 0.2em #F90, 0.04em -0.2em 0.3em #F70, 0.05em -0.25em 0.4em #F70, 0.06em -0.2em 0.9em #F50, 0.1em -0.1em 1em #F40;
+        color: #ffe;
+    
+    
+
+}
+.box3 {
+    background-color: rgb(255, 0, 212);
+}
+.box4 {
+    
+    
+    background-color: chartreuse;
+}
+.box5 {
+    background-color: rgb(255, 0, 55);
+}
+.box6 {
+    background-color: rgb(0, 204, 255);
+}
+p{
+    font-family: brush script mt;
+    transform: translateY(50%);
+}
