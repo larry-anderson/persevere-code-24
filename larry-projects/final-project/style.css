@@ -1,7 +1,7 @@
 .container {
     width: 100%;
     display: grid;
-    grid-template-rows: repeat(3, 1fr);
+    grid-template-rows: repeat(auto-fit, 1fr);
     grid-template-columns: 1fr 1fr .5fr;
     gap: 3vw;
 
